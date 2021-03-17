@@ -1,5 +1,7 @@
-const team = ['Ka Thoriq (Leader)', 'Alvito', 'Ka Danu (Leader)', 'Ka Luthfi'];
+const team = ['Ka Thoriq', 'Alvito', 'Ka Danu', 'Ka Luthfi'];
 const newTeam = team.splice(2,3);
+team[0] = 'Ka Thoriq (Leader)';
+newTeam[0] = 'Ka Danu (Leader)';
 
 document.write('Team 1 :');
 document.write('<ol>');
